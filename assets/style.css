@@ -3,7 +3,7 @@ body {
 	margin: auto;
 }
 * {
-	font-family: 'Inter';
+	font-family: 'Inter', Arial, Helvetica, sans-serif;
 	font-style: normal;
 }
 .top-header {
@@ -80,7 +80,7 @@ body {
 	font-size: 30px;
 }
 .about-me__introduction {
-	font-family: 'Spectral';
+	font-family: 'Spectral' Arial, Helvetica, sans-serif;
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
@@ -90,9 +90,7 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -137,20 +135,20 @@ body {
 }
 
 .quote {
-	font-family: 'Spectral';
+	font-family: 'Spectral', Arial, Helvetica, sans-serif;
 	font-style: italic;
 	width: 70%;
 	margin: auto;
 	padding-block: 3em;
 }
 .quote__text {
-	font-family: Spectral;
+	font-family: Spectral, Arial, Helvetica, sans-serif;
 	font-style: italic;
 	font-weight: 300;
 
 }
 .quote__author {
-	font-family: Spectral;
+	font-family: Spectral, Arial, Helvetica, sans-serif;
 	font-weight: 800;
 	font-size: 22px;
 }
