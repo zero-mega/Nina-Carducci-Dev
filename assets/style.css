@@ -364,3 +364,9 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
+
+.active-tag {
+	color: #fff !important; 
+	background-color: #787130;
+	border-radius: 0;
+}
