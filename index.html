@@ -2,8 +2,46 @@
 <html lang="fr">
   <head>
     <title>Nina Carducci</title>
+    <meta
+      property="og:title"
+      content="Nina Carducci, photographe professionnelle"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ninacarducci.github.io/" />
+    <meta
+      property="og:image"
+      content="https://ninacarducci.github.io/assets/images/nina.png"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="Nina Carducci Photographe professionnelle pour tout vos evenements">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@NinaCarducci" />
+    <meta name="twitter:creator" content="@NinaCarducci" />
+    <meta
+      name="twitter:title"
+      content="Nina Carducci, photographe professionnelle"
+    />
+    <meta
+      name="twitter:description"
+      content="Nina Carducci Photographe professionnelle pour tout vos événements"
+    />
+    <meta
+      name="twitter:image"
+      content="https://ninacarducci.github.io/assets/images/nina.png"
+    />
+    <meta
+      name="description"
+      content="Nina Carducci Photographe professionnelle pour tout vos événements"
+    />
+    <meta
+      name="keywords"
+      content="photographe, Nina Carducci, photographe professionnelle, événements, mariages, portraits, concerts, entreprises"
+    />
+    <meta name="author" content="Nina Carducci" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="language" content="French" />
+    <meta name="copyright" content="Nina Carducci" />
+    <meta name="distribution" content="global" />
     <link
       rel="stylesheet"
       href="./assets/bootstrap/bootstrap.min.css"
@@ -28,9 +66,35 @@
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
     <script src="./assets/maugallery.min.js" defer></script>
     <script src="./assets/scripts.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Nina Carducci",
+        "url": "https://ninacarducci.github.io/",
+        "image": "https://ninacarducci.github.io/assets/images/nina.png",
+        "sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr",
+        "jobTitle": "Photographe"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Shooting photo",
+        "image": "https://ninacarducci.github.io/assets/images/camera.png",
+        "description": "Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos",
+        "offers": {
+          "@type": "Offer",
+          "url": "",
+          "priceCurrency": "EUR",
+          "price": "350"
+        }
+      }
+    </script>
   </head>
   <body>
-    <div class="top-header">
+    <header>
       <h1 class="name">Nina Carducci</h1>
       <div class="nav">
         <ul>
@@ -54,8 +118,9 @@
           </li>
         </ul>
       </div>
-    </div>
-    <div id="header">
+    </header>
+    <main>
+    <div id="hero-header">
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -319,6 +384,7 @@
         <figcaption class="quote__author">- Richard Avedon</figcaption>
       </figure>
     </div>
+    <footer>
     <div id="contact">
       <div class="container">
         <div class="form-container">
@@ -352,5 +418,8 @@
         </div>
       </div>
     </div>
+  </main>
+  </footer>
   </body>
 </html>
+
