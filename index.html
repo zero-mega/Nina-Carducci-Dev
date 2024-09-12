@@ -68,30 +68,86 @@
     <script src="./assets/scripts.js" defer></script>
     <script type="application/ld+json">
       {
-        "@context": "https://schema.org/",
-        "@type": "Person",
-        "name": "Nina Carducci",
-        "url": "https://ninacarducci.github.io/",
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Nina Carducci Photography",
+        "description": "Nina Carducci, photographe professionnelle à Paris, spécialisée dans les mariages, portraits, concerts et événements d'entreprise.",
         "image": "https://ninacarducci.github.io/assets/images/nina.png",
-        "sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr",
-        "jobTitle": "Photographe"
-      }
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org/",
-        "@type": "Product",
-        "name": "Shooting photo",
-        "image": "https://ninacarducci.github.io/assets/images/camera.png",
-        "description": "Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos",
-        "offers": {
-          "@type": "Offer",
-          "url": "",
-          "priceCurrency": "EUR",
-          "price": "350"
+        "url": "https://ninacarducci.github.io/",
+        "telephone": "+33 6 12 34 56 78",  
+        "priceRange": "€€€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Rue de la Photographie",  
+          "addressLocality": "Paris",
+          "addressRegion": "Île-de-France",
+          "postalCode": "75000",
+          "addressCountry": "FR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 48.856614,
+          "longitude": 2.352222
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+            ],
+            "opens": "09:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "10:00",
+            "closes": "17:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.instagram.com/ninacarducci.photo/?hl=fr"
+        ],
+        "areaServed": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": 48.856614,
+            "longitude": 2.352222
+          },
+          "geoRadius": 10000
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Catalogue des services photo",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "Shooting photo en Île-de-France",
+              "description": "Capturer vos moments précieux en Île-de-France.",
+              "price": "350",
+              "priceCurrency": "EUR"
+            },
+            {
+              "@type": "Offer",
+              "name": "Retouches photos",
+              "description": "Optimisation professionnelle de vos photos pour publications.",
+              "price": "50",
+              "priceCurrency": "EUR"
+            },
+            {
+              "@type": "Offer",
+              "name": "Album photo personnalisé",
+              "description": "Un album photo A4 de 30 pages pour immortaliser vos événements.",
+              "price": "400",
+              "priceCurrency": "EUR"
+            }
+          ]
         }
       }
     </script>
+    
+
   </head>
   <body>
     <header>
@@ -422,4 +478,5 @@
   </footer>
   </body>
 </html>
+
 
